@@ -3,9 +3,10 @@
 
 <head>
     <title>Startpage</title>
-    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -33,11 +34,16 @@
         <div class="search-item">
             <form method="get" action="https://web.archive.org/web/*/">
                 <input type="text" name="url" placeholder="Wayback Machine..." class="search-input" autocomplete="off">
-                <label class="search-icon">
-                    🕒
-                </label>
+                <label class="search-icon"><img src="assets/archive-favicon.ico"></label>
             </form>
         </div>
+        <div class="search-item">
+            <form method="get" action="https://nyaa.si/">
+                <input type="text" name="q" placeholder="Nyaa.si..." class="search-input" autocomplete="off">
+                <label class="search-icon"><img src="assets/nyaa-favicon.jpg"></label>
+            </form>
+        </div>
+
     </div>
 
     <!-- Main Card with Profile Image -->
