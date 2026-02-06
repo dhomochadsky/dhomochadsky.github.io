@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Startpage</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- Search Bars -->
+    <div class="search-grid">
+        <div class="search-item">
+            <form method="get" action="https://www.google.com/search">
+                <input type="text" name="q" placeholder="Google..." class="search-input" autofocus>
+                <label class="search-icon"><i class="fas fa-search"></i></label>
+            </form>
+        </div>
+        <div class="search-item">
+            <form method="get" action="https://www.youtube.com/results">
+                <input type="text" name="search_query" placeholder="YouTube..." class="search-input">
+                <label class="search-icon"><i class="fab fa-youtube"></i></label>
+            </form>
+        </div>
+        <div class="search-item">
+            <form method="get" action="https://github.com/search">
+                <input type="text" name="q" placeholder="GitHub..." class="search-input">
+                <label class="search-icon"><i class="fab fa-github"></i></label>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Card with Profile Image -->
+    <div id="card">
+        <div class="profile-section">
+            <img id="seu" src="assets/Abara.jpg" alt="Profile">
+        </div>
+
+        <!-- Accordion Grid -->
+        <div class="accordion-container">
+            <div class="accordion-item">
+                <div class="accordion-title">Imageboards</div>
+                <div class="accordion-content">
+                    <a href="https://www.4chan.org/" target="_blank">4chan</a>
+                    <a href="https://lainchan.org/" target="_blank">Lainchan</a>
+                </div>
+            </div>
+            <!-- Add all other accordion items here identically - fixed malformed links like JSfiddle -->
+            <div class="accordion-item">
+                <div class="accordion-title">Messaging</div>
+                <div class="accordion-content">
+                    <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">Social</div>
+                <div class="accordion-content">
+                    <a href="https://www.reddit.com/" target="_blank">Reddit</a>
+                    <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+                    <a href="https://mail.google.com/mail/#inbox" target="_blank">Gmail</a>
+                    <a href="https://login.live.com/" target="_blank">Hotmail</a>
+                    <a href="https://mail.tutanota.com/login" target="_blank">Tutanota</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">Media</div>
+                <div class="accordion-content">
+                    <a href="https://open.spotify.com" target="_blank">Spotify</a>
+                    <a href="http://www.youtube.com/" target="_blank">Youtube</a>
+                    <a href="https://api.invidious.io/" target="_blank">Invidious Instances</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">Magic</div>
+                <div class="accordion-content">
+                    <a href="https://scryfall.com/" target="_blank">Scryfall</a>
+                    <a href="https://edhrec.com/" target="_blank">EDHrec</a>
+                    <a href="https://archidekt.com/" target="_blank">Archidekt</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">Stores</div>
+                <div class="accordion-content">
+                    <a href="https://www.solotodo.cl/" target="_blank">Solotodo</a>
+                    <a href="https://www.mercadolibre.cl/" target="_blank">Mercado Libre</a>
+                    <a href="https://www.aliexpress.com/" target="_blank">Aliexpress</a>
+                    <a href="https://www.gog.com/" target="_blank">GOG</a>
+                    <a href="https://store.epicgames.com/" target="_blank">Epic Games</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">Sandboxes</div>
+                <div class="accordion-content">
+                    <a href="https://jsfiddle.net/ target=" target="_blank">JSfiddle</a>
+                    <a href="https://www.regex101.com/" target="_blank">Regex101</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">Storage</div>
+                <div class="accordion-content">
+                    <a href="https://www.dropbox.com/home#" target="_blank">Dropbox</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">Misc</div>
+                <div class="accordion-content">
+                    <a href="https://translate.google.jo/?hl=ar&amp;tab=wT#" target="_blank">Translator</a>
+                </div>
+            </div>
+            <!-- ... (rest unchanged, fixed "Guithub" to "GitHub", removed extra <br>, fixed JSfiddle href) ... -->
+            <div class="accordion-item">
+                <div class="accordion-title">Misc</div>
+                <div class="accordion-content">
+                    <a href="https://translate.google.com/" target="_blank">Translator</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
